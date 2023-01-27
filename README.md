@@ -2,37 +2,37 @@
 
 CarouselView
 =======
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-CarouselView-green.svg?style=true)](https://android-arsenal.com/details/1/3289)
-
-A simple yet flexible library to add carousel view in your android application.
+A simple yet flexible library to add carousel view in your android application ported to Androidx.
 
 
 <img src="/sample/src/main/assets/carousel_gif.gif" title="sample" width="500" height="460" />
 
+## Dependency
 
-Download
---------
-### Gradle:
-```groovy
-compile 'com.synnapps:carouselview:0.1.5'
-```
-### Maven:
-```xml
-<dependency>
-  <groupId>com.synnapps</groupId>
-  <artifactId>carouselview</artifactId>
-  <version>0.1.5</version>
-  <type>pom</type>
-</dependency>
+Add this in your root `build.gradle` file (**not** your module `build.gradle` file):
+
+```gradle
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
 ```
 
+Then, add the library to your module `build.gradle`
+
+```gradle
+dependencies {
+    implementation 'com.github.thiago-you:carouselview:1.0.0'
+}
+```
 Usage
 --------
 
 ### Include following code in your layout:
 
 ```xml
-    <com.synnapps.carouselview.CarouselView
+    <you.thiago.carouselview.CarouselView
         android:id="@+id/carouselView"
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -118,7 +118,7 @@ customCarouselView.setImageClickListener(new ImageClickListener() {
 ### If using ProGuard add this line to your proguard-rules.pro:
 
 ```
--keep class com.synnapps.carouselview.** { *; }
+-keep class you.thiago.carouselview.** { *; }
 ```
 
 ### Supported xml Attributes
