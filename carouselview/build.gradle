@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
 android {
     namespace "com.rishabhharit.carouselview"
@@ -19,6 +20,20 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    publishing {
+        publishing {
+            singleVariant("release") {
+                withSourcesJar()
+                withJavadocJar()
+            }
+        }
+    }
 }
 
 dependencies {
@@ -29,4 +44,18 @@ dependencies {
 
     testImplementation 'junit:junit:4.13.2'
 
+}
+
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId = 'com.rishabhharit'
+            artifactId = 'carouselview'
+            version = '1.0.0'
+
+            afterEvaluate {
+                from components.release
+            }
+        }
+    }
 }
