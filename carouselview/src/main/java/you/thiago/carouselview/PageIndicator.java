@@ -1,4 +1,4 @@
-package you.thiago.carouselview;
+package com.rishabhharit.carouselview;
 
 /*
  * Copyright (C) 2011 Patrik Akerfeldt

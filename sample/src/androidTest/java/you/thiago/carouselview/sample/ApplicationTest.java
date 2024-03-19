@@ -1,4 +1,4 @@
-package you.thiago.carouselview.sample;
+package com.rishabhharit.carouselview.sample;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

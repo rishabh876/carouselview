@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="you.thiago.carouselview.sample.SampleCarouselViewActivity"
+            android:name="com.rishabhharit.carouselview.sample.SampleCarouselViewActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

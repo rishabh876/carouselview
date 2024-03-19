@@ -1,4 +1,4 @@
-package you.thiago.carouselview.sample;
+package com.rishabhharit.carouselview.sample;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,10 +10,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
-import you.thiago.carouselview.CarouselView;
-import you.thiago.carouselview.ImageClickListener;
-import you.thiago.carouselview.ImageListener;
-import you.thiago.carouselview.ViewListener;
+import com.rishabhharit.carouselview.CarouselView;
+import com.rishabhharit.carouselview.ImageClickListener;
+import com.rishabhharit.carouselview.ImageListener;
+import com.rishabhharit.carouselview.ViewListener;
 
 public class SampleCarouselViewActivity extends AppCompatActivity {
 

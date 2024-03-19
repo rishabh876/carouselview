@@ -23,7 +23,7 @@ Then, add the library to your module `build.gradle`
 
 ```gradle
 dependencies {
-    implementation 'com.github.thiago-you:carouselview:1.0.0'
+    implementation 'com.rishabhharit:carouselview:1.0.0'
 }
 ```
 Usage
@@ -32,7 +32,7 @@ Usage
 ### Include following code in your layout:
 
 ```xml
-    <you.thiago.carouselview.CarouselView
+    <com.rishabhharit.carouselview.CarouselView
         android:id="@+id/carouselView"
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -118,7 +118,7 @@ customCarouselView.setImageClickListener(new ImageClickListener() {
 ### If using ProGuard add this line to your proguard-rules.pro:
 
 ```
--keep class you.thiago.carouselview.** { *; }
+-keep class com.rishabhharit.carouselview.** { *; }
 ```
 
 ### Supported xml Attributes

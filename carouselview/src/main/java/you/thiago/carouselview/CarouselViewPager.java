@@ -1,4 +1,4 @@
-package you.thiago.carouselview;
+package com.rishabhharit.carouselview;
 
 import android.content.Context;
 import androidx.viewpager.widget.ViewPager;

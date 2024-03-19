@@ -6,7 +6,7 @@
                 android:layout_height="match_parent"
                 tools:context=".SampleCarouselViewActivity">
 
-    <you.thiago.carouselview.CarouselView
+    <com.rishabhharit.carouselview.CarouselView
         android:id="@+id/carouselView"
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -37,7 +37,7 @@
         android:textColor="@android:color/black"
         android:textSize="18sp"/>
 
-    <you.thiago.carouselview.CarouselView
+    <com.rishabhharit.carouselview.CarouselView
         android:id="@+id/customCarouselView"
         android:layout_width="match_parent"
         android:layout_height="200dp"

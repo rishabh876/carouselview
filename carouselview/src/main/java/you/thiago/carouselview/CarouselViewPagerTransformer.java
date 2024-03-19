@@ -1,4 +1,4 @@
-package you.thiago.carouselview;
+package com.rishabhharit.carouselview;
 
 /**
  * Created by Sayyam on 3/28/16.
