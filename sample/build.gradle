@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "com.rishabhharit.carouselview.sample"
+    namespace "com.github.rishabh876.carouselview.sample"
 
     compileSdkVersion rootProject.ext.sdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.rishabhharit.carouselview.sample"
+        applicationId "com.github.rishabh876.carouselview.sample"
 
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.sdkVersion

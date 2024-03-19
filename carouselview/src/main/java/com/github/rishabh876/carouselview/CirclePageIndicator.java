@@ -1,4 +1,4 @@
-package com.rishabhharit.carouselview;
+package com.github.rishabh876.carouselview;
 
 /*
  * Copyright (C) 2011 Patrik Akerfeldt

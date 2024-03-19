@@ -1,4 +1,4 @@
-package com.rishabhharit.carouselview.sample;
+package com.github.rishabh876.carouselview.sample;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.rishabhharit.carouselview;
+package com.github.rishabh876.carouselview;
 
 import android.annotation.TargetApi;
 import android.content.Context;

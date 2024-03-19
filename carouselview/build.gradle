@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 
 android {
-    namespace "com.rishabhharit.carouselview"
+    namespace "com.github.rishabh876.carouselview"
 
     compileSdkVersion rootProject.ext.sdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
@@ -49,7 +49,7 @@ dependencies {
 publishing {
     publications {
         release(MavenPublication) {
-            groupId = 'com.rishabhharit'
+            groupId = 'com.github.rishabh876'
             artifactId = 'carouselview'
             version = '1.0.0'
 
